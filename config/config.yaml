@@ -1,0 +1,48 @@
+api:
+  provider: yfinance
+  rate_limit: 5
+  timeout: 30
+
+stocks:
+  symbols:
+    - RELIANCE.NS
+    - TCS.NS
+    - INFY.NS
+
+strategy:
+  rsi_period: 14
+  rsi_threshold_low: 30
+  rsi_threshold_high: 70
+  ma_short: 20
+  ma_long: 50
+  position_size: 0.02
+  backtest_days: 180  # 6 months
+
+ml:
+  model_type:  "logistic_regression" 
+  features: ['RSI', 'MA_20', 'MA_50', 'MACD', 'Volume_Change']
+  lookback_days: 730 
+  train_test_split: 0.8
+features:
+  - 'RSI'
+  - 'MA_20'
+  - 'MA_50'
+  - 'MACD'
+  - 'MACD_Signal'
+  - 'Volume_Change'
+  - 'Price_Change'
+  - 'Volatility'  
+
+sheets:
+  url: "https://docs.google.com/spreadsheets/d/1XzTBEYUoFrmCD8DRkJZ0fSF7Ut1wyCeLx6HFCORgZME"
+  credentials: "config/credentials.json"
+
+  trading_log_sheet: "TradingLog"
+  performance_sheet: "PerformanceSummary"
+  signals_sheet: "CurrentSignals"
+  ml_sheet: "MLPredictions"
+ 
+
+logging:
+  level: "INFO"
+  file: "logs/trading_system.log"
