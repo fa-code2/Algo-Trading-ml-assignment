@@ -8,6 +8,7 @@
 An automated trading system that implements technical analysis and machine learning strategies on NIFTY 50 stocks. The system features real-time data processing, backtesting, automated trade execution, and integration with Google Sheets for reporting.
 
 ##  Demo Videos
+- [Algorithmic Trading System Explained](https://youtu.be/_NenH9Vqpvk)
 - [Live Trading & Google Sheets Integration](https://youtube.com/demo_video_2)
 ##  Project Structure
 ```
