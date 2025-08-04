@@ -9,7 +9,7 @@ An automated trading system that implements technical analysis and machine learn
 
 ##  Demo Videos
 - [Algorithmic Trading System Explained](https://youtu.be/_NenH9Vqpvk)
-- [Live Trading & Google Sheets Integration](https://youtube.com/demo_video_2)
+- [Live Trading & Google Sheets Integration](https://youtu.be/ShhvRuKgF0g)
 ##  Project Structure
 ```
 algo-trading-assignment/
