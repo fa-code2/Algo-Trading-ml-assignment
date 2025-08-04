@@ -34,7 +34,7 @@ features:
   - 'Volatility'  
 
 sheets:
-  url: "https://docs.google.com/spreadsheets/d/1XzTBEYUoFrmCD8DRkJZ0fSF7Ut1wyCeLx6HFCORgZME"
+  url: "YOUR_GOOGLE_SHEETS"
   credentials: "config/credentials.json"
 
   trading_log_sheet: "TradingLog"
