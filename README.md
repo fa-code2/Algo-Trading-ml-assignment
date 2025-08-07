@@ -255,7 +255,7 @@ This software is for educational and research purposes only. Trading stocks invo
    
 
 ##  License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License 
 
 ##  Contact
 For inquiries or support:
