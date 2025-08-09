@@ -75,12 +75,6 @@ algo-trading-assignment/
 │   ├── test_strategy.py
 │   └── test_ml_model.py
 │
-├── 📁 docs/                         # Documentation
-│   ├── setup_guide.md
-│   ├── api_documentation.md
-│   └── strategy_explanation.md
-│
-│
 ├── main.py                          # Main execution script
 ├── requirements.txt                 # Python dependencies
 ├── README.md                                           
